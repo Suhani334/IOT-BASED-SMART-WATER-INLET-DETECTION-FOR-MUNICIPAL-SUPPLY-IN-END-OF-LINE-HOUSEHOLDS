@@ -1,5 +1,3 @@
-Arduino code for HX 710B Air Pressure Sensor:
-
 #include "HX711.h"
 
 // HX710B / HX711 wiring
@@ -69,7 +67,7 @@ void loop() {
   delay(500);
 }
 
-Arduino Code for HK3022 Water pressure Sensor:
+//Arduino Code for HK3022 Water pressure Sensor:
 
 // Pin configuration
 const int pressurePin = A0;   // Analog pin connected to HK3022 output
@@ -130,7 +128,7 @@ void loop() {
 
 
 
-ESP 32 Code for HK3022 Water pressure Sensor:
+//ESP 32 Code for HK3022 Water pressure Sensor:
 
 // Pin configuration
 const int pressurePin = 34;    // GPIO34 connected to HK3022 output (ADC pin, input only)
@@ -188,7 +186,7 @@ void loop() {
   delay(200);
 }
 
-ESP 32 (Arduino Cloud) code for HK3022 Water pressure Sensor:
+//ESP 32 (Arduino Cloud) code for HK3022 Water pressure Sensor:
 
 // Pin configuration
 const int pressurePin = 34;    // GPIO34 connected to HK3022 output (ADC pin, input only)
